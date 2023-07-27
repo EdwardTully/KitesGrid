@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background: white;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+img {
+    display: block;
+    padding: 10px;
+    
+    box-shadow: -1px 0px 0px rgba(0,0,0,0.26);
+    width: 100%;
+}
